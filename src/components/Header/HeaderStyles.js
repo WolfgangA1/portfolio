@@ -54,8 +54,9 @@ export const NavLink = styled.a`
   line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
   transition: 0.4s ease;
+  tabIndex: 0;
   &:hover {
-    color: #fff;
+    color: black;
     opacity: 1;
     cursor: pointer;
   }
@@ -78,10 +79,10 @@ export const ContactDropDown = styled.button`
   transition: 0.3s ease;
 
   &:focus {
-    outline: none;
+    outline: black;
   }
   &:hover {
-    color: #fff;
+    color: black;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
