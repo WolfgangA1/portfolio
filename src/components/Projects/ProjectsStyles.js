@@ -2,18 +2,19 @@ import styled from 'styled-components';
 
 export const Img = styled.img`
   width:100%;
-  height:25rem;
+  height:35%;
   object-fit: cover;
   overflow: hidden;
+  border-radius: 10px;
 `
 
 export const GridContainer = styled.section`
-display: grid;
-grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-padding: 3rem;
-place-items: center;
-column-gap: 2rem;
-row-gap: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-auto-rows: minmax(0, 1fr);
+  padding: 3rem;
+  column-gap: 2rem;
+  row-gap: 3rem;
 @media ${(props) => props.theme.breakpoints.sm} {
   display: flex;
   flex-direction: column;
@@ -23,14 +24,12 @@ row-gap: 3rem;
 
 `
 export const BlogCard = styled.div`
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  grid-gap: 1rem;
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   text-align: center;
-  justify-items: center;
-  align-items: center;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
@@ -39,16 +38,14 @@ export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
-
 `;
-
 
 export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 2px;
   color: #9cc9e3;
   padding: .5rem 0;
-  font-size: ${(props) => props.title ? '3rem' : '2rem'};
+  font-size: ${(props) => props.title ? '2rem' : '2rem'};
 `;
 
 export const Hr = styled.hr`
@@ -76,7 +73,6 @@ export const CardInfo = styled.p`
   color: #e4e6e7;
   font-style: 2rem;
   line-height: 24px;
-  ${'' /* text-align: justify; */}
   @media ${(props) => props.theme.breakpoints.sm} {
     padding:.3rem
   
@@ -107,11 +103,11 @@ transition: 0.5s;
 
 export const TagList = styled.ul`
 display: flex;
-justify-content: space-around;
+justify-content: center;
 padding: 2rem;
 `
 export const Tag = styled.li`
 color: #d8bfbf;
-font-size: 1.5rem;
+font-size: 1.3rem;
 margin-right: 1rem;
 `
