@@ -8,7 +8,7 @@ import React from 'react';
 const Header = () =>  (
   <Container>
     <Div1>
-      <Link href="/portfolio">
+      <Link href="http://WolfgangA1.github.io/portfolio">
         <a style={{display: "flex", alignItems: "center", color: 'white', marginBottom:'20px' }}>
           <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
         </a>
@@ -16,17 +16,17 @@ const Header = () =>  (
     </Div1>
     <Div2>
       <li>
-        <Link href='#projects'>
+        <Link href='http://WolfgangA1.github.io/portfolio/#projects'>
           <NavLink>Projects</NavLink>
         </Link>
       </li>
       <li>
-        <Link href='#tech'>
+        <Link href='http://WolfgangA1.github.io/portfolio/#tech'>
           <NavLink>Technologies</NavLink>
         </Link>
       </li>
       <li>
-        <Link href='#about'>
+        <Link href='http://WolfgangA1.github.io/portfolio/#about'>
           <NavLink>About</NavLink>
         </Link>
       </li>
