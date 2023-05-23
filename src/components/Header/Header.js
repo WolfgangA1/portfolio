@@ -8,7 +8,7 @@ import React from 'react';
 const Header = () =>  (
   <Container>
     <Div1>
-      <Link href="/">
+      <Link href="/portfolio">
         <a style={{display: "flex", alignItems: "center", color: 'white', marginBottom:'20px' }}>
           <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
         </a>
@@ -16,7 +16,7 @@ const Header = () =>  (
     </Div1>
     <Div2>
       <li>
-        <Link href='#projects' tabindex="0" >
+        <Link href='#projects'>
           <NavLink>Projects</NavLink>
         </Link>
       </li>
@@ -38,9 +38,6 @@ const Header = () =>  (
       <SocialIcons href="https://www.linkedin.com/in/wolfgang-ashcraft/">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      {/* <SocialIcons href="https://twitter.com/WolfOg22">
-        <AiFillTwitterCircle size="3rem" />
-      </SocialIcons> */}
     </Div3>
   </Container>
 );
