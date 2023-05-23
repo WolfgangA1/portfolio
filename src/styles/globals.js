@@ -27,18 +27,6 @@ const GlobalStyles = createGlobalStyle`
   }
   a {
     text-decoration: none;
-    font-size: 2rem;
-  line-height: 32px;
-  color: rgba(255, 255, 255, 0.75);
-  transition: 0.4s ease;
-  &:hover {
-    color: #fff;
-    opacity: 1;
-    cursor: pointer;
-  }
-  @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 0.5rem;
-  }
   }
   li{
     list-style: none;
