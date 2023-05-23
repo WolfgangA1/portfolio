@@ -11,7 +11,7 @@ export const projects = [
   {
     title: 'DonutMaker',
     description:"Created DonutClicker game inspired by CookieClicker enabling users to retrieve one donut per click. After making enough donuts they were able to purchase an automatic clicker & multiplier.",
-    image: '/images/2.jpg',
+    image: 'images/2.jpg',
     tags: ['HTML', 'JavaScript','CSS'],
     source: 'https://google.com',
     visit: 'https://github.com/WolfgangA1/donut-maker-WolfgangA1',
@@ -20,7 +20,7 @@ export const projects = [
   {
     title: 'Island-Hopping',
     description: "I contributed to the development of Jac Enterprises' island-hopping webpage as part of a four-person team. Efficient collaboration was ensured through the effective use of Github's project board to track progress.",
-      image: '/images/3.jpg',
+      image: 'images/3.jpg',
       tags: ['JavaScript', 'SQL', 'Express', 'EJS', 'Node', 'Scrum'],
     source: 'https://google.com',
     visit: 'https://github.com/2022-October-Java-PT-Classroom/first-team-project-team-island-hnpw/tree/main/node-sql-team-project',
@@ -29,7 +29,7 @@ export const projects = [
   {
     title: 'Mystery Educator',
     description: "Worked in a group of three people to build out a webpage for kids to learn new things from NASA and the Met museum. We used the APIs that NASA and the Met Museum offered.",
-    image: '/images/4.jpg',
+    image: 'images/4.jpg',
     tags: ['React', 'JavaScript', 'Java', 'REST APIs', 'Scrum'],
     source: 'https://google.com',
     visit: 'https://github.com/WolfgangA1/digi-dreamers-mystery-educator-repo',
@@ -38,7 +38,7 @@ export const projects = [
   {
     title: 'My Apothecary’s Garden',
     description: "A collaborative team of five individuals worked together to create an informative herb page focusing on medical uses.",
-    image: '/images/5.jpg',
+    image: 'images/5.jpg',
     tags: ['React', 'JavaScript', 'Java', 'REST APIs', 'Scrum'],
     source: 'https://google.com',
     visit: 'https://github.com/WolfgangA1/Apothecary-Garden',
