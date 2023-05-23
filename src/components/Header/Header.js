@@ -16,18 +16,18 @@ const Header = () =>  (
     </Div1>
     <Div2>
       <li>
-        <Link href='http://WolfgangA1.github.io/portfolio/#projects'>
-          <a>Projects</a>
+        <Link href='#projects'>
+          <NavLink>Projects</NavLink>
         </Link>
       </li>
       <li>
-        <Link href='http://WolfgangA1.github.io/portfolio/#tech'>
-          <a>Technologies</a>
+        <Link href='#tech'>
+          <NavLink>Technologies</NavLink>
         </Link>
       </li>
       <li>
-        <Link href='http://WolfgangA1.github.io/portfolio/#about'>
-          <a>About</a>
+        <Link href='#about'>
+          <NavLink>About</NavLink>
         </Link>
       </li>
     </Div2>
