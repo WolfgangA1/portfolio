@@ -1,5 +1,5 @@
 import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle } from 'react-icons/ai';
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
+import { Container, Div1, Div2, Div3, SocialIcons, Span, } from './HeaderStyles';
 
 import { DiCssdeck } from 'react-icons/di';
 import Link from 'next/link';
@@ -16,18 +16,18 @@ const Header = () =>  (
     </Div1>
     <Div2>
       <li>
-        <Link href='https://wolfganga1.github.io/portfolio/#projects'>
-          <NavLink>Projects</NavLink>
+        <Link href='/#projects'>
+        <a>Projects</a>
         </Link>
       </li>
       <li>
-        <Link href='https://wolfganga1.github.io/portfolio/#tech'>
-          <NavLink>Technologies</NavLink>
+        <Link href='/#tech'>
+          <a>Technologies</a>
         </Link>
       </li>
       <li>
-        <Link href='https://wolfganga1.github.io/portfolio/#about'>
-          <NavLink>About</NavLink>
+        <Link href='/#about'>
+          <a>About</a>
         </Link>
       </li>
     </Div2>
