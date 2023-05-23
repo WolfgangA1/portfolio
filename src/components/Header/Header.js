@@ -8,7 +8,7 @@ import React from 'react';
 const Header = () =>  (
   <Container>
     <Div1>
-      <Link href="http://WolfgangA1.github.io/portfolio">
+      <Link href="http://WolfgangA1.github.io/">
         <a style={{display: "flex", alignItems: "center", color: 'white', marginBottom:'20px' }}>
           <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
         </a>
