@@ -23,7 +23,7 @@ export const projects = [
       image: 'images/3.jpg',
       tags: ['JavaScript', 'SQL', 'Express', 'EJS', 'Node', 'Scrum'],
     source: 'https://google.com',
-    visit: 'https://github.com/2022-October-Java-PT-Classroom/first-team-project-team-island-hnpw/tree/main/node-sql-team-project',
+    visit: 'https://github.com/WolfgangA1/first-team-project-team-island-hnpw',
     id: 2,
   },
   {
